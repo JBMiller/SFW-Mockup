@@ -1,0 +1,197 @@
+﻿.inner-body
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 1% 2%;
+}
+.header
+{
+    height: 130px;
+}
+    .logo
+    {
+        position: absolute;
+        width: 200px;
+        height: 125px;
+    }
+    .header-content
+    {
+        float: right;
+    }
+        .header-content h1
+        {
+            margin: 0px;
+            padding-left: 40px;
+        }
+        .header-content h2
+        {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            vertical-align: top;
+            padding-left: 40px;
+            margin-top: 20px;
+            margin-right: 160px;
+        }
+        .header-content div
+        {
+            display: inline-block;
+        }
+    .navigation {
+        list-style-type:none; 
+        background-color:black; 
+        color:white; 
+        font-size:16px; 
+        padding:7px; 
+        width:100%;
+        margin: 0;
+        margin-top: -2px;
+    }
+        .navigation li {
+            display:inline;
+        }
+        .navigation a, a :visited
+        {
+            color: white;
+        }
+
+.content
+{
+    min-height:450px; 
+    position:relative;
+}
+    .left-side {
+        width: 200px;
+        height: 100%;
+        border-right: 10px solid gray;
+        position: absolute;
+    }
+        .left-side p
+        {
+            margin-top:70px;
+        }
+    .right-side
+    {
+        display: inline-block;
+        width: 75%;
+        height: 100%;
+        margin-left: 25%;
+    }
+    .photo-list
+    {
+        list-style-type: none;
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+        .photo-list li
+        {
+            padding-right: 3%;
+            display: inline-block;
+            width: 20%;
+            max-height: 160px;
+        }
+        .photo-list li img
+        {
+            width: 100%;
+        }
+    .info-list
+    {
+        list-style-type: none;
+        display: block;
+        padding: 0;
+        width: 100%;
+        margin: 0px;
+        margin-left:30px;
+        font-size:smaller;
+    }
+        .info-list li
+        {
+            padding-right: 3%;
+            display: inline-block;
+            width: 30%;
+            max-height: 160px;
+        }
+        .info-list li span
+        {
+            color: lightblue;
+        }
+        .info-list li input[type="button"]
+        {
+            color: white;
+            background-color: rgb(24, 156, 209);
+            border-color: transparent;
+            border-radius: 3px;
+            width: 100px;
+            height: 30px;
+            font-weight: bold;
+        }
+        .info-list li input[type="button"]:hover
+        {
+            background-color: skyblue;
+        }
+.pinkee
+{
+    background-color:rgb(255, 250, 251);
+}
+    .pinkee hr {border-color: lightblue;}
+    .eventbriteDiv
+    {
+        background-color:white; 
+        border: 1px solid #23cad9; 
+        border-radius: 10px;
+        margin-bottom:25px;
+        padding: 10px;
+    }
+        .eventbriteDiv h3 {border-bottom: 1px solid #23cad9;}
+    .pinkee table
+    {
+       
+    }
+        .pinkee table tr td
+        {
+            border-bottom: 1px solid #23cad9;
+
+        }
+    .button_css {
+        background: url(https://ebmedia.eventbrite.com/s3-s3/static/images/background/glass_light2-trans.png) 0 50% repeat-x #e4e4e4;
+        font-size: 12px;
+        color: #555;
+        font-weight: 700;
+        border: 1px solid #b5b5b5;
+        padding: 9px 12px;
+        text-decoration: none;
+        text-shadow: 0 1px #fff;
+        -moz-box-shadow: 0 1px 0 #fff inset,0 -1px 0 #f5f5f5 inset;
+        -webkit-box-shadow: 0 1px 0 #fff inset,0 -1px 0 #f5f5f5 inset;
+        box-shadow: 0 1px 0 #fff inset,0 -1px 0 #f5f5f5 inset;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .contact_host_icon {
+        width: 20px;
+        height: 15px;
+        margin-right: 2px;
+        background: url(https://ebmedia.eventbrite.com/s3-build/20370-rc2014-05-26-c83848a/django/images/sprites/email-button-icon.png) no-repeat -1px 1px;
+    }
+
+.footer
+{
+    background-color: red;
+    color: white;
+}
+    .footer h2
+    {
+        display: inline-block;
+        margin: 5px;
+    }
+    .footer div
+    {
+        float: right;
+        width: 25%;
+        background-color: black;
+        color: white;
+    }
